@@ -9,4 +9,5 @@ For example - "and", "ANd", "aNd", "AND" all will be counted irrespective of the
 #### Assumption
 No proper sentence can have "and" as the last word.
 
-
+### Example
+The sample inputs and their corresponding expected outputs are shown in the file "console.txt". 
