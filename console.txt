@@ -1,0 +1,5 @@
+
+Enter a string: 
+Java is an Object Oriented Programming language and it has it's own advantages. Other OOP's include C#, C++ AnD  Python.
+
+Frequency of and = 2
