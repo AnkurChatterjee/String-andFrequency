@@ -1,4 +1,4 @@
-import java.io.*;
+import java.util.*;
 class AndFrequency
 {
     static String text;
@@ -10,12 +10,11 @@ class AndFrequency
         len=text.length();
     }
 
-    public void accept(String n)throws IOException
+    public void accept(String n)
     {
-        InputStreamReader reader=new InputStreamReader(System.in);
-        BufferedReader input=new BufferedReader(reader);
+        Scanner sc = new Scanner(System.in);
         System.out.println("\nEnter a string: ");
-        n=input.readLine();
+        n=sc.nextLine();
         text=n;
     }
 
@@ -44,7 +43,7 @@ class AndFrequency
         System.out.println("\nFrequency of and = "+countand);
     }
 
-    public static void main(String arg[])throws IOException
+    public static void main(String args[])
     {
         AndFrequency obj=new AndFrequency();
         obj.accept(text);
